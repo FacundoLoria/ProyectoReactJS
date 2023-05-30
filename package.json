@@ -1,0 +1,11 @@
+{
+  "name": "primera-entrega-reactjs",
+  "version": "1.0.0",
+  "description": "Proyecto ReactJS - Facu Loria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
