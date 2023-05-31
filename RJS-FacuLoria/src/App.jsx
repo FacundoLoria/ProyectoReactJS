@@ -1,11 +1,17 @@
-import Header from "./components/Header"
-import './App.css'
+import Header from "../components/Header";
+import "./App.css";
+import ItemListContainer from '../components/ItemsListContainer';
+import Compra from "../components/botones"
 
 function App() {
 
   return (
       <div>
-
+        <Header />
+        <hr/>
+        <Compra />
+        <ItemListContainer />
+        
       </div>
   )
 }
