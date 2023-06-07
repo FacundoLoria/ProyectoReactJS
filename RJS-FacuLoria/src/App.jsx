@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Header from "../components/Header";
 import "./App.css";
 import ItemListContainer from '../components/ItemsListContainer';
@@ -9,8 +10,8 @@ function App() {
       <div>
         <Header />
         <hr/>
-        <Compra />
         <ItemListContainer />
+        <Compra />
         
       </div>
   )
