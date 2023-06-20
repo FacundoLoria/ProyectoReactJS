@@ -5,7 +5,7 @@ import {data} from '../src/data'
 export const ItemListContainer = () => {
 
     return( 
-        <div className='conteiner-items'>
+        	<div className='conteiner-items'>
             {data.map(product => (
             <div className="item">
 				    <figure>

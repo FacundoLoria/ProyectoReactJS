@@ -1,6 +1,6 @@
-import '../src/App.css'
+import '../src/App.css';
 import React, { useState } from 'react';
-import Compra from "../components/botones"
+import Cardwidget from './Cardwidget/Cardwidget';
 
 const Header = () => { 
     return (
@@ -12,10 +12,8 @@ const Header = () => {
                     <a href="a" className='links'>Inicio</a>
                     <a href="b" className='links'>Productos</a>
                     <a href="c" className='links'>Contacto</a>
-                    <img src="./public/carrito.png" alt="Carrito"/>
-                    <p>199</p>
                 </nav>
-
+                    <Cardwidget />
             </div>
         </header>
     )

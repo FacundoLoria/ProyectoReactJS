@@ -4,17 +4,17 @@ import "./App.css";
 import ItemListContainer from '../components/ItemsListContainer';
 import Compra from "../components/botones"
 
-function App() {
+  function App() {
 
-  return (
-      <div>
-        <Header />
-        <hr/>
-        <ItemListContainer />
-        <Compra />
-        
-      </div>
-  )
-}
+    return (
+        <div>
+          <Header />
+          <hr/>
+          <ItemListContainer />
+          <Compra />
+          
+        </div>
+    )
+  }
 
-export default App
+  export default App
